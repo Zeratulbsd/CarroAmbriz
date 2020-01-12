@@ -1,0 +1,17 @@
+Paso 1:
+conectar a Punto de Acceso perras
+AP:perras
+password:tassadar
+Paso 2 conectarse a raspberry pi por ssh
+user:pi
+password:tassadar
+Comando:
+ssh pi@192.168.1.102
+
+Paso 3 ejecutar scrip python para socket
+ python hola1.py
+
+Paso 4:Ejecutar cliente en laptop
+ python main1.py
+
+
