@@ -27,12 +27,12 @@ classNames = { 0: 'fondo',
     17: 'borrega', 18: 'sofa', 19: 'tren', 20: 'monitor' }
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("192.168.1.102", 5000))
+s.connect(("192.168.0.102", 5000))
  
 if args.video:
     cap = cv2.VideoCapture(args.video)
 else:
-    cap = cv2.VideoCapture('http://192.168.1.102:8081')
+    cap = cv2.VideoCapture('http://192.168.0.102:8081')
 
 
 net = cv2.dnn.readNetFromCaffe(args.prototxt, args.weights)
