@@ -1,12 +1,12 @@
 Paso 1:
-conectar a Punto de Acceso perras
-AP:perras
-password:tassadar
+conectar a Punto de Acceso TP-LINK_226E
+AP:TP-LINK_226E
+password:57138909
 Paso 2 conectarse a raspberry pi por ssh
 user:pi
 password:tassadar
 Comando:
-ssh pi@192.168.1.102
+ssh pi@192.168.0.102
 
 Paso 3 ejecutar scrip python para socket
  python hola1.py
